@@ -1,0 +1,13 @@
+{
+	"name": "php-moderno/query-builder",
+    "description": "Query Builder do curso PHP Moderno",
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"PhpModerno\\Query\\": "src"
+    	}
+    }
+}
